@@ -1,17 +1,62 @@
-<html>
-  <head>
-    <title>Secret Level</title>
-    <style>
-      body {
-        background-color: black;
-        color: lime;
-        font-family: monospace;
-        text-align: center;
-        padding-top: 100px;
-      }
-    </style>
-  </head>
-  <body>
-    <h2>not so fast son</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Letter</title>
+<style>
+  body {
+    background-color: #0d0d0d;
+    color: #dcdcdc;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    margin: 0;
+  }
+
+  .letter {
+    max-width: 600px;
+    line-height: 1.6;
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #222;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.05);
+  }
+
+  .fade {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade:hover {
+    opacity: 1;
+  }
+
+  a {
+    color: #a94442;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .small {
+    font-size: 0.9em;
+    color: #888;
+  }
+</style>
+</head>
+<body>
+  <div class="letter fade">
+    <p>Hey.</p>
+    <p>I’m not sure who’ll find this… or when. While I’m writing this, I’m probably long gone.</p>
+    <p>If this ever reaches the wrong person — I hope you’re not <i>him</i>.</p>
+    <p>It wasn’t supposed to happen this way. Just… keep your distance from the signal, and whatever you do, don’t trace it back.</p>
+    <p>If you understand any of this — or if you can help — contact me at <a href="mailto:hwmnhydry798@gmail.com">hwmnhydry798@gmail.com</a>.</p>
+    <p class="small">If this means nothing to you, just close the page. You’ll feel better that way.</p>
+  </div>
+</body>
 </html>
